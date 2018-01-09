@@ -27,4 +27,4 @@ To install & run:
 <br />npm install https://github.com/appleijunkie/p2pool-scanner-mooncoin.git
 <br />cd node_modules
 <br />cd p2pool-scanner-mooncoin
-<br />node scanner.js
+<br />screen -dmS p2pool-scanner-mooncoin node /home/(user)/node_modules/p2pool-scanner-mooncoin/scanner.js 
