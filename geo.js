@@ -27,7 +27,7 @@ function Geo(options) {
         if(response["city"] == "") {
           countryString = response["country_name"];
         } else {
-          countryString = response["country_name"] + " (" + response["city"] + ", " + response[region_code] + ")";
+          countryString = response["country_name"] + " (" + response["city"] + ", " + response["region_code"] + ")";
         }
         var o = {
             country : countryString,
