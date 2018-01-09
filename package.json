@@ -1,22 +1,21 @@
 {
-  "name": "p2pool-scanner",
+  "name": "p2pool-scanner-mooncoin",
   "author": {
-    "name": "Litecoin Project",
-    "email": "contact@litecoin.org"
+    "name": "appleijunkie",
+    "email": "contact@nodes.ga"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "dependencies": {
-    "express": "*",
-    "json" : "*",
-    "underscore" : "*"
+    "express": "^4.16.2",
+    "json": "^9.0.6",
+    "underscore": "^1.8.3"
   },
   "engines": {
     "node": "*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/p2pool-scanner.git"
+    "url": "https://github.com/appleijunkie/p2pool-scanner-mooncoin.git"
   },
   "readmeFilename": "README.md"
-
 }
