@@ -98,7 +98,8 @@ function Scanner(options) {
             str += "</div>";
             str += "<br style='clear:both;'/>";
         })
-        str += "</div><p/><br/>";
+        str += "</div><p/>";
+        str += "<center>A project by <a href='https://github.com/appleijunkie/p2pool-scanner-mooncoin' target='_blank'>appleijunkie</a></center>";
         str += "</body>"
         return str;
     }
