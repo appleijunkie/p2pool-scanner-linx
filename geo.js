@@ -1,4 +1,4 @@
-ar http = require('http')
+var http = require('http')
 
 function Geo(options) {
     var self = this;
