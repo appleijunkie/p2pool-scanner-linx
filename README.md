@@ -1,4 +1,4 @@
-Mooncoin Peer to Peer mining network public node scanner
+linX Peer to Peer mining network public node scanner
 ===============================================
 
 A simple NodeJS scanner that runs beside p2pool node and scans all IPs stored in addrs file. If IP has a public interface, then it is added to the list.  Users can connect to these nodes to mine on p2pool network without having to setup their own p2pool node.
@@ -24,7 +24,7 @@ p2pool-(currency)-init.txt <<< include a few peers currently available in the p2
 
 To install & run:
 <br />cd ~
-<br />npm install https://github.com/appleijunkie/p2pool-scanner-mooncoin.git
+<br />npm install https://github.com/appleijunkie/p2pool-scanner-linx.git
 <br />cd node_modules
-<br />cd p2pool-scanner-mooncoin
-<br />screen -dmS p2pool-scanner-mooncoin node /home/(user)/node_modules/p2pool-scanner-mooncoin/scanner.js 
+<br />cd p2pool-scanner-linx
+<br />screen -dmS p2pool-scanner-linx node /home/(user)/node_modules/p2pool-scanner-linx/scanner.js 
