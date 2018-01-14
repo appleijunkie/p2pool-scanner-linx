@@ -68,7 +68,7 @@ function Scanner(options) {
             +"</head><body>";
         if(logo)
             str += "<div style='text-align:center;'><img src=\""+logo+"\" /></div><br style='clear:both;'/>";
-        str += "<center><a href='https://github.com/Rav3nPL/p2pool-rav' target='_blank'>PEER TO PEER "+(config.currency.toUpperCase())+" MINING NETWORK</a> - PUBLIC NODE LIST<br/><span style='font-size:10px;color:#333;'>GENERATED ON: "+(new Date())+"</span></center><p/>"
+        str += "<center><a href='https://github.com/kr1z1s/p2pool-linx' target='_blank'>PEER TO PEER "+(config.currency.toUpperCase())+" MINING NETWORK</a> - PUBLIC NODE LIST<br/><span style='font-size:10px;color:#333;'>GENERATED ON: "+(new Date())+"</span></center><p/>"
         if(self.poolstats)
             str += "<center>Global Pool Hashrate: "+(self.poolstats.pool_hash_rate/config.raw_hash_rate).toFixed(2)+" "+config.speed_abbrev+"</center>";
         str += "<center>There are currently "+(self.nodes_total || "N/A")+" nodes online.<br/>"+_.size(self.addr_working)+" nodes are public with following IPs:</center><p/>";
@@ -99,7 +99,7 @@ function Scanner(options) {
             str += "<br style='clear:both;'/>";
         })
         str += "</div><p/>";
-        str += "<center>A project by <a href='https://github.com/appleijunkie/p2pool-scanner-mooncoin' target='_blank'>appleijunkie</a></center>";
+        str += "<center>A project by <a href='https://github.com/appleijunkie/p2pool-scanner-linx' target='_blank'>appleijunkie</a></center>";
         str += "</body>"
         return str;
     }
